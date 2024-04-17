@@ -1,10 +1,8 @@
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const Report = () => {
   return (
     <>
-      <Header />
       <main className="container my-4">
         <h1>Team Performance Report</h1>
         <hr />
@@ -32,7 +30,7 @@ const Report = () => {
           </div>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 };

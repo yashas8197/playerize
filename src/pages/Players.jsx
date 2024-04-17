@@ -1,11 +1,9 @@
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 const Players = () => {
   return (
     <>
-      <Header />
       <main className="container my-4">
         <h1>List of Players</h1>
         <ul className="list-group">
@@ -32,7 +30,7 @@ const Players = () => {
           </li>
         </ul>
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 };
